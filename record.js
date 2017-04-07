@@ -6,8 +6,8 @@ this.price = price
 }
 
 Record.prototype.details = function() {
-  console.log(this.title + " by " + this.artist + "\nMusic genre: " + this.genre + "\nPrice: " + this.price)
-  return this.title + " by " + this.artist + "\nMusic genre: " + this.genre + "\nPrice: " + this.price
+  // console.log(this.title + " by " + this.artist + "\nMusic genre: " + this.genre + "\nPrice: " + this.price)
+  return this.title + " by " + this.artist + "\nMusic genre: " + this.genre + "\nPrice: " + this.price + "\n"
 };
 
 

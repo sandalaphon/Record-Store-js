@@ -15,7 +15,7 @@ assert.strictEqual("Pink Floyd" , record1.artist)
 })
 
 it('can get record details', function(){
-  assert.strictEqual("Dark Side of the Moon by Pink Floyd\nMusic genre: rock\nPrice: 1000", record1.details())
+  assert.strictEqual("Dark Side of the Moon by Pink Floyd\nMusic genre: rock\nPrice: 1000\n", record1.details())
 })
 
 
